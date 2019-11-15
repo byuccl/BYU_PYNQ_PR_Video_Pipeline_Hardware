@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sobel.h" path="C:\XUP\v2_1\PYNQ-master\boards\ip\hls\BYU\sobel\sobel.h"/>
+    <originFiles name="sobel.cpp" path="C:\XUP\v2_1\PYNQ-master\boards\ip\hls\BYU\sobel\sobel.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

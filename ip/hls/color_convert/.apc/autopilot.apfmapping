@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="color_convert.cpp" path="C:\XUP\v2_1\PYNQ-master\boards\ip\hls\color_convert\color_convert.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="color_convert_test.cpp" path="C:\XUP\v2_1\PYNQ-master\boards\ip\hls\color_convert\color_convert_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
