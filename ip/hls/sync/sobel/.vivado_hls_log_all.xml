@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'filter_func/ctl_WR_EN_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sobel" solutionName="solution1" date="2018-02-27T13:58:23.720-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'filter_func/ctl_DATA_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sobel" solutionName="solution1" date="2018-02-27T13:58:23.716-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'filter_func/ctl_CMD_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="sobel" solutionName="solution1" date="2018-02-27T13:58:23.699-0700" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;axis read on port 'stream_in_24_data' (0 ns)&#xD;&#xA;&#x9;'mul' operation ('tmp_5_i', sobel/test.cpp:37->sobel/test.cpp:106) (3.36 ns)&#xD;&#xA;&#x9;'add' operation ('tmp2', sobel/test.cpp:37->sobel/test.cpp:106) (3.02 ns)" projectName="sobel" solutionName="solution1" date="2018-02-27T13:58:23.326-0700" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (6.38ns) exceeds the target (target clock period: 7ns, clock uncertainty: 0.875ns, effective delay budget: 6.125ns)." projectName="sobel" solutionName="solution1" date="2018-02-27T13:58:23.321-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;axis read on port 'stream_in_24_data' (0 ns)&#xD;&#xA;&#x9;'mul' operation ('tmp_5_i', greyscale/top.cpp:33->greyscale/top.cpp:50) (3.36 ns)&#xD;&#xA;&#x9;'add' operation ('tmp2', greyscale/top.cpp:33->greyscale/top.cpp:50) (3.02 ns)" projectName="greyscale" solutionName="solution1" date="2018-02-27T08:51:53.821-0700" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (6.38ns) exceeds the target (target clock period: 7ns, clock uncertainty: 0.875ns, effective delay budget: 6.125ns)." projectName="greyscale" solutionName="solution1" date="2018-02-27T08:51:53.814-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

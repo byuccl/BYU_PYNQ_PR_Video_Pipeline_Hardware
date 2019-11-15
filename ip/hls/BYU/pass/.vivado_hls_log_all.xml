@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'pass_hls/ctl_WR_EN_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.738-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'pass_hls/ctl_DATA_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.732-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'pass_hls/ctl_CMD_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.727-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'tmp_B_V' is power-on initialization." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.722-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'tmp_G_V' is power-on initialization." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.712-0700" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'tmp_R_V' is power-on initialization." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.707-0700" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'tmp_last.V'." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:49.172-0700" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'tmp_user.V'." projectName="pass" solutionName="solution1" date="2018-03-08T18:41:48.588-0700" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

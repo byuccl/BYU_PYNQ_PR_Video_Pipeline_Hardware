@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'vid_id' is power-on initialization." projectName="vid_sync" solutionName="solution1" date="2018-03-29T17:14:14.092-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'split' is power-on initialization." projectName="vid_sync" solutionName="solution1" date="2018-03-29T17:14:13.999-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'video_a' is power-on initialization." projectName="vid_sync" solutionName="solution1" date="2018-03-29T17:14:13.990-0600" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

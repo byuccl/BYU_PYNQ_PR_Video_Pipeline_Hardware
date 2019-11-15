@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'buff_C_M_2_2' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.381-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'buff_C_M_2_1' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.266-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'buff_C_M_1_2' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.256-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'buff_C_M_0_2' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.247-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'buff_C_M_0_1' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.238-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'buff_C_M_1_1' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.229-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'RGBX' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.222-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'RGBY' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.214-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'lower_limit' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.206-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'upper_limit' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.197-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'sobel_weight' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.146-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'shift_value' is power-on initialization." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:15.137-0600" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;'add' operation ('tmp_s', sobel/sobel.cpp:41->sobel/sobel.cpp:164) (1.65 ns)&#xD;&#xA;&#x9;'select' operation ('temp', sobel/sobel.cpp:41->sobel/sobel.cpp:164) (1.37 ns)&#xD;&#xA;&#x9;'icmp' operation ('tmp_7', sobel/sobel.cpp:167) (1.3 ns)&#xD;&#xA;&#x9;blocking operation 0.931 ns on control path)" projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:14.417-0600" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (5.253ns) exceeds the target (target clock period: 6ns, clock uncertainty: 0.75ns, effective delay budget: 5.25ns)." projectName="sobel" solutionName="solution1" date="2018-03-16T11:16:14.411-0600" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

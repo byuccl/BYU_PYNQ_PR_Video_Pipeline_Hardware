@@ -1,9 +1,9 @@
 *.log
 *.bit
 *.html
-*.xml
 drp/hd_visual/
 *.dcp
 *.rpt
 drp/Source/*/HLS/
 Pynq-Z1/video/video/
+*webtalk.xml
