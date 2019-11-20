@@ -112,9 +112,8 @@ read_xdc Const/1080p.xdc
 
 opt_design
 place_design
-#phys_opt_design 
-route_design 
-# -directive Explore -tns_cleanup
+phys_opt_design 
+route_design -directive Explore -tns_cleanup
 phys_opt_design -directive AggressiveExplore
 
 write_checkpoint -force Implement/pass_route_design.dcp

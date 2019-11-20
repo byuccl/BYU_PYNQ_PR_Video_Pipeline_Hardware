@@ -2068,6 +2068,8 @@ update_compile_order -fileset sources_1
 add_files -fileset constrs_1 -norecurse ./vivado/constraints/top.xdc
 update_compile_order -fileset sources_1
 set_property strategy Flow_AlternateRoutability [get_runs synth_1]
+set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY full [get_runs synth_1]
+set_property STEPS.SYNTH_DESIGN.ARGS.RETIMING true [get_runs synth_1]
 launch_runs synth_1 -jobs 4
 wait_on_run synth_1
 open_run synth_1 -name synth_1
